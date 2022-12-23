@@ -1,0 +1,174 @@
+﻿personachat-valid-000290
+my husband already has one child so we are happy i like food also .<eos>he has a child from a previous marriage ?<eos>well a previous relationship yes .
+speaker1 's husband,has,a child from a previous marriage,positive
+
+
+personachat-valid-000446
+oh i remember horse back riding when i was a kid . now my kids love it .<eos>do you have any horses ? are they in high school ?<eos>i've one we keep at a stable in kentucky 10 , 9 and 7
+speaker1,have,horses,positive
+
+
+circa-valid-020923
+hi there , i decided to pack up my belongings and move here from germany .<eos>is the flat move in ready ?<eos>yes , it's turnkey .
+the flat move,is,turnkey
+
+
+circa-train-031921
+congratulations i heard the process is crazy i've a gym buddy who's a realtor<eos>do you have a realtor ?<eos>i found one online .
+speaker1,found,a realtor,positive
+
+
+circa-valid-009727
+that must be hard . i like a beer after driving my nissan pathfinder .<eos>can i get you a beer ?<eos>yes , i'm hankering for one .
+speaker1,hankering for,a beer,positive
+
+
+personachat-valid-000145
+my name is john . i am in my early thirties<eos>hi john . i like chocolate . do you ?<eos>no . i don't have money to spend on chocolate . my wife takes it all
+speaker1 's wife,takes,money,positive
+
+
+daily_dialogs-train-001932
+What size do you wear ? These shoes are on sale .<eos>I wear size 36 . This pair looks nice . Can I try them on ?<eos>Of course , yes . They look nice . And they're not expensive .
+this pair,looks,nice,positive
+this pair,are,expensive,negative
+these shoes,look,nice,positive
+these shoes,are,expensive,negative
+
+
+personachat-valid-000556
+i donate to locks of love if that counts<eos>that is great ! ok , now another random question what is your biggest fear ?<eos>spiders . . . i absolutely hate and fear them
+speaker1,hate,spiders,positive
+speaker1,fear,spiders,positive
+
+
+daily_dialogs-train-008807
+That's right . I grew a beard during the trip , but I shaved it off when I came home .<eos>Why did you shave it off ?<eos>My wife didn't like it !
+speaker1,shaved off,a beard,positive
+
+
+personachat-train-003200
+i just off the phone with my ex . he just thinks he is my ex .<eos>he just thinks he's my ex what does that mean ?<eos>well he tried to break up but i'm still in love with him
+speaker1 's ex,tried to,break up,positive
+speaker1,in love with,speaker1 's ex,positive
+
+
+circa-valid-004129
+true love is the strongest magic . i hope your family can understand someday .<eos>is your family doing well ?<eos>yes , we are all really contented at the moment .
+speaker1 's family,are,really contented,positive
+
+
+daily_dialogs-train-001337
+Here 's the master bedroom .<eos>Wow , it 's nice . What did you say about the rent ?<eos>900 a month .
+the master bedroom,is,nice,positive
+
+
+circa-train-010889
+that kind of work does take creativity . i am not that fortunate .<eos>does your work require creativity ?<eos>it's mostly busywork .
+that kind of work,take,creativity,positive
+speaker1 's work,is,busywork,positive
+
+
+personachat-train-000888
+hi ! please tell me about yourself .<eos>hey there . i live in colorado and work in it . how about you ?<eos>i'm disabled and have many hobbies like photography .
+speaker2,work in,colorado,positive
+
+
+circa-train-005705
+nah , i have two kids to raise , and i work at the mall selling cosmetics part time<eos>is it stressful all the time ?<eos>constantly .
+two kids,is,stressful,positive
+
+
+circa-train-028850
+i only like shopping if it's for dessert ! could use some ice cream now<eos>do you still go to the ice cream shop we loved ?<eos>yes , i go there from time to time .
+speaker1,go,the ice cream shop speaker2 loved,positive
+
+
+daily_dialogs-valid-002172
+The Chinese rice pudding . Your father loves it , too . You wanna try ?<eos>Sure . Is it sweet ?<eos>Yes , of course . But I think they can make you a salty one , too .
+speaker2 's father,loves,the chinese rice pudding,positive
+the chinese rice pudding,is,sweet,positive
+
+
+daily_dialogs-train-009364
+I think you'll have to pay some duty on the cigarettes because they exceed the quota . And this article is liable for duty .<eos>How much duty should I pay ?<eos>One hundred dollars .
+the cigarettes,exceed,the quota,positive
+
+
+personachat-train-014830
+i moved there when i was 14<eos>where did you move to america from ?<eos>from europe , far away i was
+speaker1,moved,america,positive
+
+
+daily_dialogs-valid-009768
+Ok . That will be 1400RMB please .<eos>How long is the flight ?<eos>It 's about three hours .
+the flight,is,about three hours,positive
+
+
+personachat-valid-000551
+that is neat , mine is brown<eos>cool , what is your favorite disney character ?<eos>mickey mouse for sure , he's so boss
+speaker1 's favorite disney character,is,so boss,positive
+
+
+circa-valid-025978
+hey ! ! so i have a house warming party for my new apartment with my buddy tomorrow !<eos>are you ok with party noises ?<eos>i hate them .
+speaker1,hate,party noises,positive
+
+
+circa-valid-012514
+that sounds cool . i've a kid , but he is too young for gaming<eos>did you enjoy playing board games growing up as a kid ?<eos>yes , i still love playing them !
+a kid,is,too young for gaming,positive
+speaker1,love,playing board games,positive
+
+
+personachat-train-011264
+just my pug , he is the most loyal thing you will ever find !<eos>awesome ! what do you like to do for fun ?<eos>i like playing ultimate frisbee with my dude .
+speaker1 's pug,is,the most loyal thing,positive
+
+
+personachat-train-015983
+hello ! how are you today ?<eos>hello , i am well . i was just thinking about jazz . do you listen to it ?<eos>no . my boyfriend does though . he says it helps with his job at nasa .
+speaker1,listen to,jazz,negative
+jazz,helps with,speaker1 's boyfriend 's job at nasa,positive
+
+
+circa-train-018518
+lady gaga is cool . she's a substitute teacher sometimes too .<eos>do you still listen to lady gaga ?<eos>yes , she is brilliant
+lady gaga,is,a substitute teacher,positive
+lady gaga,is,brilliant,positive
+
+
+daily_dialogs-valid-006925
+Thomas , would you be so kind as to lay the table for me ? I'm busy in the kitchen .<eos>Of course ! Where are the things ?<eos>They're all here .
+the things,are,here,positive
+
+
+daily_dialogs-valid-003426
+There is a package for all sports channels .<eos>Do you have a package that includes all the movie channels with the basic channels also ?<eos>Yes , we do offer that package .
+speaker1,offer,a package that includes all the movie channels,positive
+
+
+circa-train-022592
+the plot thickens lol how cool , did you get his number or anything<eos>is a good plot important ?<eos>yes , it's the most important part of any story .
+a good plot,is,the most important part of any story,positive
+
+
+circa-valid-024105
+i read do self help guides and journals .<eos>do you like self help books ?<eos>i like them a lot .
+speaker1,like,self help books,positive
+
+
+personachat-train-017763
+that is so funny he's my favorite too<eos>have you been to a concert yet ?<eos>yes we have been to several of them
+speaker1,been to,a concert,positive
+
+
+daily_dialogs-valid-007237
+She's my little niece . It 's her birthday . They're singing Happy Birthday .<eos>Oh , I see . how old is she ?<eos>She's ten .
+speaker1 's little niece,is,ten,positive
+
+
+daily_dialogs-valid-007477
+Yes , I liked it , too . Did you like the acting ?<eos>Yes . I thought it was excellent . Didn't you ?<eos>Not really . I thought it was disappointing .
+the acting,was,disappointing,positive
+the acting,was,excellent,positive
