@@ -1,0 +1,380 @@
+
+ (1/76) input: I'm running a high fever and feeling terribly bad .
+extracted predicates:['feeling', 'running', "'", "'", 'feeling', 'running']
+expected: [('Speaker1', 'move', 'a high fever', 'positive'), ('speaker1', 'feel', 'terribly bad', 'positive')]
+found:   [('speaker1', 'feeling', 'terribly bad', 'positive'), ('speaker1', 'running', 'a high fever', 'positive')]
+
+ (2/76) input: haha yeah , i like football and country music
+extracted predicates:['like', 'like']
+expected: [('speaker1', 'like', 'football', 'positive'), ('speaker1', 'like', 'country music', 'positive')]
+found:   [('speaker1', 'like', 'country music', 'positive'), ('speaker1', 'like', 'football', 'positive')]
+
+ (3/76) input: Yes , it's me .
+extracted predicates:['be']
+expected: [('it', 'be', 'speaker1', 'positive')]
+found:   [('it', 'be', 'speaker1', 'positive')]
+
+ (4/76) input: No . Worse than that . I have a flu . I'm in bed with a fever .
+extracted predicates:['located', 'have', 'have', 'located']
+expected: [('speaker1', 'have', 'a flu', 'positive'), ('speaker1', 'located', 'bed', 'positive')]
+found:   [('speaker1', 'located', 'bed with a fever', 'positive'), ('speaker1', 'have', 'a flu', 'positive'), ('speaker1', 'have', 'a fever', 'positive')]
+
+ (5/76) input: alot really , i enjoy going out to eat with family , going to the movies
+extracted predicates:['enjoy going out', 'go', 'enjoy going out', 'go']
+expected: [('speaker1', 'like', 'eat with family', 'positive'), ('speaker1', 'go', 'the movies', 'positive')]
+found:   [('speaker1', 'enjoy going out', 'to the movies', 'positive'), ('speaker1', 'go', 'the movies', 'positive'), ('speaker1', 'enjoy going out', 'to eat with family', 'positive'), ('speaker1', 'go', 'eat with family', 'positive')]
+
+ (6/76) input: i go a couple of times a month .
+extracted predicates:['go']
+expected: [('speaker1', 'go', 'a couple of times a month', 'positive')]
+found:   [('speaker1', 'go', 'a couple of times a month', 'positive')]
+
+ (7/76) input: i like mushroom and spinach what about you ?
+extracted predicates:['like', 'spinach']
+expected: [('speaker1', 'like', 'mushroom', 'positive'), ('speaker1', 'like', 'spinach', 'positive')]
+found:   [('speaker1', 'like', 'mushroom', 'positive'), ('speaker1', 'spinach', 'mushroom', 'positive')]
+
+ (8/76) input: grandma babysits she's a lawyer
+extracted predicates:['be']
+expected: [('She', 'be', 'a lawyer', 'positive')]
+found:   [('she', 'be', 'a lawyer', 'positive')]
+
+ (9/76) input: she must be really progressive if she's a laywer , what do you do ?
+extracted predicates:['be', 'be', 'be', 'do', 'do', 'do', 'do', 'be']
+expected: [('she', 'be', 'really progressive', 'positive')]
+found:   [('she', 'be', 'really progressive', 'positive')]
+
+ (10/76) input: i like to dance on the weekends
+extracted predicates:['want', 'want']
+expected: [('speaker1', 'like', 'dance', 'positive')]
+found:   [('speaker1', 'want', 'dance on the weekends', 'positive')]
+
+ (11/76) input: that would be a very interesting job
+extracted predicates:['be', 'aux']
+expected: [('that', 'be', 'a very interesting job', 'positive')]
+found:   [('that', 'be', 'a very interesting job', 'positive')]
+
+ (12/76) input: yes , i'd be around art . painting is my hobby . how about you ?
+extracted predicates:['be', 'be around', 'be', 'be', 'be around', 'be around', 'be', 'be around', 'be around', 'be', 'be around', 'be']
+expected: [('painting', 'be', "speaker1 's hobby", 'positive'), ('speaker1', 'located', 'art', 'positive')]
+found:   [('painting', 'be', "speaker1 's hobby", 'positive'), ('speaker1', 'be around', 'art', 'positive'), ('speaker2', 'be', "speaker1 's hobby", 'positive')]
+
+ (13/76) input: i love to run and that keeps me in shape
+extracted predicates:['keeps speaker1 in', 'like', 'keeps speaker1 in', 'like', 'keeps speaker1 in', 'like', 'like', 'keeps speaker1 in']
+expected: [('speaker1', 'sentiment-positive', 'run', 'positive')]
+found:   [('that', 'keeps speaker1 in', 'shape', 'positive'), ('speaker1', 'like', 'run', 'positive')]
+
+ (14/76) input: they're doing good . i'm the one who feels lost in who i am .
+extracted predicates:['do', 'feels lost in', 'be', 'feels lost in', 'feels lost in', 'be', 'do', 'feels lost in', 'feels lost in', 'be', 'feels lost in', 'do', 'do', 'be', 'do', 'be', 'be', 'do']
+expected: [('they', 'do', 'good', 'positive'), ('speaker1', 'be', 'the one who feels lost', 'positive')]
+found:   [('they', 'do', 'good', 'positive'), ('speaker1', 'feels lost in', 'who speaker1 am', 'positive'), ('speaker1', 'be', 'the one who feels', 'positive')]
+
+ (15/76) input: i have a good relationship with my husband but feel alone sometimes .
+extracted predicates:['feel', 'have with', 'feel', 'have with']
+expected: [('speaker1', 'have', "a good relationship with speaker1 's husband", 'positive')]
+found:   []
+
+ (16/76) input: that kind of work does take creativity . i am not that fortunate .
+extracted predicates:['be', 'take', 'be', 'take', 'take', 'be', 'be', 'take', 'take', 'be', 'take', 'be']
+expected: [('that kind of work', 'take', 'creativity', 'positive'), ('speaker1', 'be', 'that fortunate', 'negative')]
+found:   [('speaker1', 'be', 'that fortunate', 'negative'), ('that kind of work', 'take', 'creativity', 'positive')]
+
+ (17/76) input: it's mostly busywork .
+extracted predicates:['be']
+expected: [('it', 'be', 'busywork', 'positive')]
+found:   [('it', 'be', 'busywork', 'positive')]
+
+ (18/76) input: nope i like all books but my last one was lord of the flies
+extracted predicates:['be', 'like', 'like', 'be', 'like', 'like', 'be', 'be']
+expected: [('speaker1', 'like', 'all books', 'positive'), ("speaker1 's last one", 'be', 'lord of the flies', 'positive')]
+found:   [("speaker1 's last one", 'be', 'lord of the flies', 'positive'), ('speaker1', 'like', 'all books', 'positive')]
+
+ (19/76) input: yes , the movies are excellent .
+extracted predicates:['be']
+expected: [('the movies', 'be', 'excellent', 'positive')]
+found:   [('the movies', 'be', 'excellent', 'positive')]
+
+ (20/76) input: i'll probably end up going to the gym . have any animals ?
+extracted predicates:['end up', 'end up', 'have', 'have']
+expected: [('speaker1', 'go', 'the gym', 'positive')]
+found:   [('speaker1', 'end up', 'going to the gym', 'positive')]
+
+ (21/76) input: no , i'm only in college . what do you do ?
+extracted predicates:['located', 'do', 'located', 'do']
+expected: [('Speaker1', 'located', 'college', 'positive')]
+found:   [('speaker1', 'located', 'college', 'positive')]
+
+ (22/76) input: true love is the strongest magic . i hope your family can understand someday .
+extracted predicates:['can understand', 'love is', 'can understand', 'love is', 'love is', 'can understand', 'love is', 'can understand']
+expected: [('true love', 'be', 'the strongest magic', 'positive')]
+found:   [("speaker2 's family", 'can understand', 'someday', 'positive'), ('true', 'love is', 'the strongest magic', 'positive')]
+
+ (23/76) input: yes , we are all really contented at the moment .
+extracted predicates:['contented at', 'be']
+expected: [('speaker1', 'be', 'really contented', 'positive')]
+found:   [('speaker1', 'contented at', 'the moment', 'positive')]
+
+ (24/76) input: i live on the west coast what about you ?
+extracted predicates:['live on']
+expected: [('Speaker1', 'be from', 'the west coast', 'positive')]
+found:   [('speaker1', 'live on', 'the west coast', 'positive')]
+
+ (25/76) input: i live in north carolina . i never been to the west coast .
+extracted predicates:['visit', 'visit', 'live in', 'live in']
+expected: [('speaker1', 'live in', 'north carolina', 'positive'), ('speaker1', 'go', 'the west coast', 'positive')]
+found:   [('speaker1', 'visit', 'the west coast', 'negative'), ('speaker1', 'visit', 'north carolina', 'negative'), ('speaker1', 'live in', 'north carolina', 'positive')]
+
+ (26/76) input: it's going good just playing some video games before bed
+extracted predicates:['play', 'go', 'go', 'play', "'", "'"]
+expected: [('it', 'going', 'good', 'positive'), ('speaker1', 'play', 'some video games', 'positive')]
+found:   [('it', 'play', 'some video games before bed', 'positive'), ('it', 'go', 'good', 'positive')]
+
+ (27/76) input: yes i play every day i've never had a job and in school
+extracted predicates:['play', 'have', 'play', 'have']
+expected: [('speaker1', 'play', 'every day', 'positive'), ('Speaker1', 'have', 'a job', 'negative'), ('Speaker1', 'located', 'school', 'positive')]
+found:   [('speaker1', 'play', 'every day', 'positive')]
+
+ (28/76) input: they work as big bankers .
+extracted predicates:['work']
+expected: [('they', 'work', 'big bankers', 'positive')]
+found:   [('they', 'work', 'big bankers', 'positive')]
+
+ (29/76) input: i enjoy them as well . favorite are action movies !
+extracted predicates:['like', 'be', 'be', 'like', 'like', 'like', 'be', 'be']
+expected: [('speaker1', 'like', 'them', 'positive'), ('favorite', 'be', 'action movies', 'positive')]
+found:   [('speaker1', 'like', 'them', 'positive'), ('favorite', 'be', 'action movies', 'positive')]
+
+ (30/76) input: i love them
+extracted predicates:['like']
+expected: [('speaker1', 'sentiment-positive', 'them', 'positive')]
+found:   [('speaker1', 'like', 'them', 'positive')]
+
+ (31/76) input: i love the birds and my cats .
+extracted predicates:['like', 'like']
+expected: [('speaker1', 'sentiment-positive', 'the birds', 'positive'), ('speaker1', 'sentiment-positive', "speaker1 's cats", 'positive')]
+found:   [('speaker1', 'like', 'the birds', 'positive'), ('speaker1', 'like', "speaker1 's cats", 'positive')]
+
+ (32/76) input: i've two cats . i watch the birds outside . it is getting close to holidays .
+extracted predicates:['getting close to', 'see', 'have', 'have', 'see', 'see', 'see', 'have', 'getting close to', 'getting close to', 'see', 'have', 'getting close to', 'getting close to', 'see', 'getting close to', 'have', 'have']
+expected: [('speaker1', 'have', 'two cats', 'positive'), ('speaker1', 'see', 'the birds outside', 'positive'), ('it', 'get', 'holidays', 'positive')]
+found:   [('it', 'getting close to', 'holidays', 'positive'), ('speaker1', 'see', 'the birds outside', 'positive'), ('speaker1', 'have', 'two cats', 'positive')]
+
+ (33/76) input: i love to grill outdoors .
+extracted predicates:['like']
+expected: [('Speaker1', 'sentiment-positive', 'grill outdoors', 'positive')]
+found:   [('speaker1', 'like', 'grill outdoors', 'positive')]
+
+ (34/76) input: that is cool what kind of food do you like
+extracted predicates:['like', 'be', 'be', 'like']
+expected: [('that', 'be', 'cool', 'positive')]
+found:   []
+
+ (35/76) input: i am trying to write a book while i work in my gardening
+extracted predicates:['try', 'work', 'work', 'try']
+expected: [('Speaker1', 'try', 'write a book', 'positive'), ('speaker1', 'work', "speaker1 's gardening", 'positive')]
+found:   [('speaker1', 'try', 'write a book', 'positive'), ('speaker1', 'work', "speaker1 's gardening", 'positive')]
+
+ (36/76) input: I'm afraid there isn't . My boss only pays lip service .
+extracted predicates:['commerce-transaction', 'commerce-transaction']
+expected: [("speaker1 's boss", 'commerce-transaction', 'lip service', 'positive')]
+found:   [("speaker1 's boss", 'commerce-transaction', 'lip service', 'positive')]
+
+ (37/76) input: My expectation is in the 3800 to 4500 RIB range . That's the take home pay .
+extracted predicates:['be', 'located', 'be', 'located', 'located', 'be', 'be', 'located']
+expected: [("speaker1 's expectation", 'be', 'the 3800 to 4500 rib range', 'positive'), ('that', 'be', 'the take home pay', 'positive')]
+found:   [('that', 'be', 'the take home pay', 'positive'), ("speaker1 's expectation", 'located', 'the 3800 to 4500 rib range', 'positive'), ("speaker1 's expectation", 'be', 'the take home pay', 'positive')]
+
+ (38/76) input: Well , that was an intelligent thing to do .
+extracted predicates:['be']
+expected: [('that', 'be', 'an intelligent thing to do', 'positive')]
+found:   [('that', 'be', 'an intelligent thing to do', 'positive')]
+
+ (39/76) input: since i was fired i found a job in insurance .
+extracted predicates:['find', 'be', 'be', 'find']
+expected: [('Speaker1', 'find', 'a job in insurance', 'positive'), ('speaker1', 'be', 'fired', 'positive')]
+found:   [('speaker1', 'find', 'a job in insurance', 'positive'), ('speaker1', 'be', 'fired', 'positive')]
+
+ (40/76) input: it is ok , but my dad made a ton before he passed away .
+extracted predicates:['make', 'be', 'passed away', 'passed away', 'passed away', 'passed away', 'make', 'passed away', 'passed away', 'make', 'make', 'passed away', 'make', 'make', 'make', 'passed away', 'passed away', 'be', 'be', 'be', 'make', 'make', 'be', 'be', 'be', 'be', 'be']
+expected: [('it', 'be', 'ok', 'positive'), ("speaker1 's dad", 'make', 'a ton', 'positive'), ('he', 'die', 'away', 'positive')]
+found:   [("speaker1 's dad", 'make', 'a ton', 'positive'), ('it', 'be', 'ok', 'positive'), ("speaker1 's dad", 'passed away', 'away', 'positive')]
+
+ (41/76) input: thanks . i'll try to check it out .
+extracted predicates:['try']
+expected: [('speaker1', 'try', 'check it out', 'positive')]
+found:   []
+
+ (42/76) input: my day was annoying .
+extracted predicates:['be']
+expected: [("speaker1 's day", 'be', 'annoying', 'positive')]
+found:   [("speaker1 's day", 'be', 'annoying', 'positive')]
+
+ (43/76) input: i work at an india restaurant .
+extracted predicates:['work']
+expected: [('speaker1', 'work', 'an india restaurant', 'positive')]
+found:   [('speaker1', 'work', 'an india restaurant', 'positive')]
+
+ (44/76) input: It was hard at the beginning , but now feel it's really relaxing . It makes me flexible .
+extracted predicates:['be', 'makes speaker1', 'was hard at', 'was hard at', 'was hard at', 'feel', 'was hard at', 'makes speaker1', 'be', 'makes speaker1', 'feel', 'feel', 'be', 'feel', 'makes speaker1', 'be']
+expected: [('it', 'be', 'hard', 'positive'), ('it', 'be', 'really relaxing', 'positive'), ('it', 'make', 'flexible', 'positive')]
+found:   [('it', 'be', 'really relaxing', 'positive'), ('it', 'makes speaker1', 'flexible', 'positive'), ('it', 'was hard at', 'the beginning', 'positive')]
+
+ (45/76) input: I often go swimming .
+extracted predicates:['go']
+expected: [('speaker1', 'go', 'swimming', 'positive')]
+found:   [('speaker1', 'go', 'swimming', 'positive')]
+
+ (46/76) input: i don't have a job . i am a college student .
+extracted predicates:['have', 'be', 'have', 'be']
+expected: [('Speaker1', 'be', 'a college student', 'positive'), ('speaker1', 'have', 'a job', 'positive')]
+found:   [('speaker1', 'have', 'a job', 'negative'), ('speaker1', 'be', 'a college student', 'positive')]
+
+ (47/76) input: good , getting ready for my gig tonight , i am a singer and i love it !
+extracted predicates:['be', 'prepare', 'like', 'like', 'be', 'prepare', 'prepare', 'be', 'like']
+expected: [('speaker1', 'prepare', "speaker1 's gig", 'positive'), ('Speaker1', 'be', 'a singer', 'positive'), ('speaker1', 'sentiment-positive', 'it', 'positive')]
+found:   [('speaker1', 'be', 'a singer', 'positive'), ('speaker1', 'prepare', "speaker1 's gig", 'positive'), ('speaker1', 'like', 'it', 'positive')]
+
+ (48/76) input: rock . i usually do gigs on saturdays but a job is a job .
+extracted predicates:['do', 'be', 'do', 'do', 'be', 'be', 'do', 'be']
+expected: [('speaker1', 'do', 'gigs', 'positive'), ('a job', 'be', 'a job', 'positive')]
+found:   [('speaker1', 'do', 'gigs on saturdays', 'positive'), ('a job', 'be', 'a job', 'positive')]
+
+ (49/76) input: i am going to a concert and maybe try the new italian place after .
+extracted predicates:['try', 'go', 'go', 'try']
+expected: [('speaker1', 'go', 'a concert', 'positive'), ('speaker1', 'try', 'the new italian place', 'positive')]
+found:   [('speaker1', 'try', 'the new italian place after', 'positive'), ('speaker1', 'go', 'a concert', 'positive')]
+
+ (50/76) input: i am a female who works out
+extracted predicates:['be']
+expected: [('Speaker1', 'be', 'a female', 'positive'), ('speaker1', 'work', 'out', 'positive')]
+found:   [('speaker1', 'be', 'a female who works out', 'positive')]
+
+ (51/76) input: i am currently a cleaning lady and do alot of work in the city .
+extracted predicates:['be', 'work', 'be', 'work', 'work', 'be']
+expected: [('Speaker1', 'be', 'a cleaning lady', 'positive'), ('speaker1', 'do', 'alot of work', 'positive')]
+found:   [('speaker1', 'be', 'a cleaning lady', 'positive'), ('speaker1', 'work', 'the city', 'positive')]
+
+ (52/76) input: no , i was born in the countryside
+extracted predicates:['be from', 'be']
+expected: [('speaker1', 'be from', 'the countryside', 'positive')]
+found:   [('speaker1', 'be from', 'the countryside', 'positive')]
+
+ (53/76) input: Yes , we have both the paperback and hardcover .
+extracted predicates:['have', 'have']
+expected: [('speaker1', 'have', 'the paperback', 'positive'), ('speaker1', 'have', 'hardcover', 'positive')]
+found:   [('speaker1', 'have', 'the paperback', 'positive')]
+
+ (54/76) input: shopping is okay . what is your favorite thing to shop for ?
+extracted predicates:['be', 'be', 'be', 'be']
+expected: [('shopping', 'be', 'okay', 'positive')]
+found:   []
+
+ (55/76) input: no . i am a person . do not be rude . i will feed you to the lions .
+extracted predicates:['be', 'be', 'feed speaker2 to', 'feed speaker2 to', 'aux', 'be', 'feed speaker2 to', 'be', 'be', 'be', 'aux', 'aux']
+expected: [('Speaker1', 'be', 'a person', 'positive'), ('speaker1', 'give', 'the lions', 'positive')]
+found:   [('speaker1', 'be', 'rude', 'negative'), ('speaker1', 'be', 'a person', 'positive'), ('speaker1', 'feed speaker2 to', 'the lions', 'positive')]
+
+ (56/76) input: hi there , i decided to pack up my belongings and move here from germany .
+extracted predicates:['move here from', 'decided to', 'decided to', 'move here from']
+expected: [('speaker1', 'choose', "pack up speaker1's belongings", 'positive')]
+found:   [('speaker1', 'move here from', 'germany', 'positive')]
+
+ (57/76) input: it's been problem free .
+extracted predicates:['be']
+expected: [('it', 'be', 'problem free', 'positive')]
+found:   [('it', 'be', 'problem free', 'positive')]
+
+ (58/76) input: yup i been to new york city 3 times this year
+extracted predicates:['visit']
+expected: [('speaker1', 'go', 'new york city', 'positive')]
+found:   [('speaker1', 'visit', 'new york city', 'positive')]
+
+ (59/76) input: the city is too busy and loud
+extracted predicates:['be', 'be']
+expected: [('the city', 'be', 'too busy', 'positive'), ('the city', 'be', 'too loud', 'positive')]
+found:   [('the city', 'be', 'too busy', 'positive'), ('the city', 'be', 'loud', 'positive')]
+
+ (60/76) input: we both like the outdoors then ! i like working out at the park too .
+extracted predicates:['like', 'like', 'like', 'like', 'like', 'like']
+expected: [('speaker1', 'like', 'the outdoors', 'positive'), ('speaker1', 'like', 'working out at the park', 'positive')]
+found:   [('speaker1', 'like', 'working out at the park', 'positive'), ('speaker1', 'like', 'the outdoors', 'positive'), ('speaker1', 'like', 'working', 'positive')]
+
+ (61/76) input: i'm an electronics technician .
+extracted predicates:['be']
+expected: [('speaker1', 'be', 'an electronics technician', 'positive')]
+found:   [('speaker1', 'be', 'an electronics technician', 'positive')]
+
+ (62/76) input: i like iced coffee with flavors in it .
+extracted predicates:['like']
+expected: [('Speaker1', 'like', 'iced coffee with flavours in it', 'positive')]
+found:   [('speaker1', 'like', 'iced coffee with flavors in it', 'positive')]
+
+ (63/76) input: at the moment , i'm mad for soy sauce .
+extracted predicates:['mad for', "'"]
+expected: [('speaker1', 'sentiment-positive', 'soy sauce', 'positive')]
+found:   [('speaker1', 'mad for', 'soy sauce', 'positive')]
+
+ (64/76) input: that seems fun , i walk 5 days a week , 2 3 hours
+extracted predicates:['seem', 'walk', 'walk', 'seem', 'walk', 'walk', 'seem', 'seem', 'walk', 'seem', 'seem', 'walk']
+expected: [('speaker1', 'walk', '5 days a week', 'positive'), ('that', 'seems', 'fun', 'positive')]
+found:   [('that', 'seem', 'fun', 'positive'), ('speaker1', 'walk', '2 3 hours', 'positive'), ('speaker1', 'walk', '5 days a week', 'positive')]
+
+ (65/76) input: i do not have friends because they think i'm too smart
+extracted predicates:['have', 'be', 'be', 'have']
+expected: [('speaker1', 'have', 'friends', 'negative'), ('they', 'think', "i'm too smart", 'positive')]
+found:   [('speaker1', 'have', 'friends', 'negative'), ('speaker1', 'be', 'too smart', 'positive')]
+
+ (66/76) input: i see a couple of them
+extracted predicates:['see']
+expected: [('speaker1', 'see', 'a couple of them', 'positive')]
+found:   [('speaker1', 'see', 'a couple of them', 'positive')]
+
+ (67/76) input: If you don't mind , I'd rather you didn't . I have a cold and feel chilly .
+extracted predicates:['feel', 'have', 'rather', 'feel', 'rather', 'rather', 'rather', 'feel', 'have', 'have', 'have', 'feel', 'mind', 'mind', 'mind', 'mind']
+expected: [('speaker1', 'have', 'a cold', 'positive'), ('speaker1', 'feel', 'chilly', 'positive')]
+found:   [('speaker1', 'feel', 'chilly', 'positive'), ('speaker1', 'have', 'a cold', 'positive')]
+
+ (68/76) input: it's about 200 years old . It has a lot of history !
+extracted predicates:['be', 'have', 'have', 'be']
+expected: [('it', 'be', 'about 200 years old', 'positive'), ('It', 'have', 'a lot of history', 'positive')]
+found:   [('it', 'be', 'about 200 years old', 'positive'), ('it', 'have', 'a lot of history', 'positive')]
+
+ (69/76) input: it's just off of the ring road .
+extracted predicates:['is off of']
+expected: [('it', 'located', 'the ring road', 'positive')]
+found:   [('it', 'is off of', 'the ring road', 'positive')]
+
+ (70/76) input: i am doing okay . trying to figure out how to take a bath .
+extracted predicates:['try', 'do', 'try', 'try', 'do', 'do']
+expected: [('speaker1', 'trying to', 'figure out how to take a bath', 'positive'), ('speaker1', 'do', 'okay', 'positive')]
+found:   [('speaker1', 'try', 'figure out how to take a bath', 'positive'), ('speaker1', 'do', 'okay', 'positive')]
+
+ (71/76) input: i've a water allergy , small amounts are all i can do .
+extracted predicates:['have', 'aux', 'aux', 'have', 'have', 'aux']
+expected: [('speaker1', 'have', 'a water allergy', 'positive'), ('speaker1', 'do', 'small amounts', 'positive')]
+found:   [('speaker1', 'have', 'a water allergy', 'positive')]
+
+ (72/76) input: I think you've got the flu .
+extracted predicates:['have']
+expected: [('speaker1', 'have', 'the flu', 'positive')]
+found:   []
+
+ (73/76) input: I am confused about the projected revenues .
+extracted predicates:['confused about', 'be']
+expected: [('speaker1', 'confused about', 'the projected revenues', 'positive')]
+found:   [('speaker1', 'confused about', 'the projected revenues', 'positive')]
+
+ (74/76) input: This perfume just arrived yesterday , and it's the latest products of Chanel .
+extracted predicates:['be', 'be', 'arrived', 'arrived']
+expected: [('this perfume', 'come', 'yesterday', 'positive'), ('it', 'be', 'the latest products of Chanel', 'positive')]
+found:   [('it', 'be', 'the latest products of chanel', 'positive'), ('this perfume', 'be', 'the latest products of chanel', 'positive')]
+
+ (75/76) input: Hi , Dave . This is Zina .
+extracted predicates:['be']
+expected: [('this', 'be', 'zina', 'positive')]
+found:   [('this', 'be', 'zina', 'positive')]
+
+ (76/76) input: I got your email a couple of months back .
+extracted predicates:['have']
+expected: [('speaker1', 'have', "speaker1 's email", 'positive')]
+found:   [('speaker1', 'have', "speaker2 's email", 'positive')]

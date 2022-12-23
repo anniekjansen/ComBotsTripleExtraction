@@ -1,0 +1,420 @@
+daily_dialogs-train-010343
+I'm running a high fever and feeling terribly bad .
+Speaker1,run,a high fever,positive
+speaker1,feel,terribly bad,positive
+
+
+personachat-train-016839
+haha yeah , i like football and country music
+speaker1,like,football,positive
+speaker1,like,country music,positive
+
+
+daily_dialogs-train-012081
+Yes , it's me .
+it,be,speaker1,positive
+
+
+daily_dialogs-train-012081
+No . Worse than that . I have a flu . I'm in bed with a fever .
+speaker1,have,a flu,positive
+Speaker1,be in,bed,positive
+
+
+circa-train-012211
+alot really , i enjoy going out to eat with family , going to the movies
+speaker1,like,eat with family,positive
+speaker1,go,the movies,positive
+
+
+circa-train-012211
+i go a couple of times a month .
+speaker1,go,a couple of times a month,positive
+
+
+personachat-train-015275
+i like mushroom and spinach what about you ?
+speaker1,like,mushroom,positive
+speaker1,like,spinach,positive
+
+
+personachat-train-014679
+grandma babysits she's a lawyer
+She,be,a lawyer,positive
+
+
+personachat-train-014679
+she must be really progressive if she's a laywer , what do you do ?
+she,be,really progressive,positive
+
+
+personachat-train-014679
+i like to dance on the weekends
+speaker1,like to,dance,positive
+
+
+personachat-train-016767
+that would be a very interesting job
+That,be,a very interesting job,positive
+
+
+personachat-train-016767
+yes , i'd be around art . painting is my hobby . how about you ?
+painting,be,speaker1 's hobby,positive
+speaker1,be around,art,positive
+
+
+personachat-train-016767
+i love to run and that keeps me in shape
+speaker1,love,run,positive
+
+
+personachat-train-014794
+they're doing good . i'm the one who feels lost in who i am .
+they,doing,good,positive
+speaker1,be,the one who feels lost,positive
+
+
+personachat-train-014794
+i have a good relationship with my husband but feel alone sometimes .
+speaker1,have,a good relationship with speaker1 's husband,positive
+
+
+circa-train-010889
+that kind of work does take creativity . i am not that fortunate .
+that kind of work,take,creativity,positive
+speaker1,be,that fortunate,negative
+
+
+circa-train-010889
+it's mostly busywork .
+it,be,busywork,positive
+
+
+circa-valid-007261
+nope i like all books but my last one was lord of the flies
+speaker1,like,all books,positive
+speaker1 's last one,be,lord of the flies,positive
+
+
+circa-valid-007261
+yes , the movies are excellent .
+the movies,be,excellent,positive
+
+
+personachat-valid-000397
+i'll probably end up going to the gym . have any animals ?
+speaker1,go,the gym,positive
+
+
+personachat-valid-000397
+no , i'm only in college . what do you do ?
+Speaker1,be in,college,positive
+
+
+circa-valid-004129
+true love is the strongest magic . i hope your family can understand someday .
+true love,be,the strongest magic,positive
+
+
+circa-valid-004129
+yes , we are all really contented at the moment .
+speaker1,be,really contented,positive
+
+
+personachat-train-010737
+i live on the west coast what about you ?
+speaker1,live on,the west coast,positive
+
+
+personachat-train-010737
+i live in north carolina . i never been to the west coast .
+speaker1,live in,north carolina,positive
+speaker1,go,the west coast,positive
+
+
+personachat-train-000767
+it's going good just playing some video games before bed
+it,go,good,positive
+speaker1,play,some video games,positive
+
+
+personachat-train-000767
+yes i play every day i've never had a job and in school
+speaker1,play,every day,positive
+Speaker1,have,a job,negative
+Speaker1,be in,school,positive
+
+
+personachat-valid-000618
+they work as big bankers .
+They,work,as big bankers,positive
+
+
+circa-train-033185
+i enjoy them as well . favorite are action movies !
+Speaker1,like,them,positive
+favorite,be,action movies,positive
+
+
+circa-train-033185
+i love them
+speaker1,love,them,positive
+
+
+personachat-valid-000485
+i love the birds and my cats .
+speaker1,love,the birds,positive
+speaker1,love,speaker1 's cats,positive
+
+
+personachat-valid-000485
+i've two cats . i watch the birds outside . it is getting close to holidays .
+speaker1,have,two cats,positive
+speaker1,watch,the birds outside,positive
+it,get,holidays,positive
+
+
+circa-valid-030180
+i love to grill outdoors .
+speaker1,love,grill outdoors,positive
+
+
+circa-valid-006826
+that is cool what kind of food do you like
+that,be,cool,positive
+
+
+circa-train-031388
+i am trying to write a book while i work in my gardening
+Speaker1,try,write a book,positive
+speaker1,work,speaker1 's gardening,positive
+
+
+daily_dialogs-valid-010749
+I'm afraid there isn't . My boss only pays lip service .
+speaker1 's boss,pay,lip service,positive
+
+
+daily_dialogs-valid-010749
+My expectation is in the 3800 to 4500 RIB range . That's the take home pay .
+speaker1 's expectation,is in,the 3800 to 4500 rib range,positive
+that,be,the take home pay,positive
+
+
+daily_dialogs-valid-003604
+Well , that was an intelligent thing to do .
+that,be,an intelligent thing to do,positive
+
+
+personachat-valid-000126
+since i was fired i found a job in insurance .
+Speaker1,find,a job in insurance,positive
+speaker1,be,fired,positive
+
+
+personachat-valid-000126
+it is ok , but my dad made a ton before he passed away .
+it,is,ok,positive
+speaker1 's dad,make,a ton,positive
+he,die,away,positive
+
+
+circa-train-021708
+thanks . i'll try to check it out .
+speaker1,try,check it out,positive
+
+
+circa-train-021708
+my day was annoying .
+speaker1 's day,be,annoying,positive
+
+
+circa-train-011353
+i work at an india restaurant .
+speaker1,work,an india restaurant,positive
+
+
+daily_dialogs-train-000502
+It was hard at the beginning , but now feel it's really relaxing . It makes me flexible .
+it,be,hard,positive
+it,be,really relaxing,positive
+It, make,flexible,positive
+
+
+daily_dialogs-train-000502
+I often go swimming .
+speaker1,go,swimming,positive
+
+
+circa-valid-006129
+i don't have a job . i am a college student .
+Speaker1,be,a college student,positive
+speaker1,have,a job,positive
+
+
+personachat-train-010263
+good , getting ready for my gig tonight , i am a singer and i love it !
+speaker1,prepare,speaker1 's gig,positive
+Speaker1,be,a singer,positive
+speaker1,love,it,positive
+
+
+personachat-train-010263
+rock . i usually do gigs on saturdays but a job is a job .
+speaker1,do,gigs,positive
+a job,be,a job,positive
+
+
+personachat-train-007124
+i am going to a concert and maybe try the new italian place after .
+Speaker1,go,a concert,positive
+speaker1,try,the new italian place,positive
+
+
+personachat-train-007532
+i am a female who works out
+Speaker1,be,a female,positive
+speaker1,work,out,positive
+
+
+circa-valid-022223
+i am currently a cleaning lady and do alot of work in the city .
+Speaker1,be,a cleaning lady,positive
+speaker1,do,alot of work,positive
+
+
+circa-valid-022223
+no , i was born in the countryside
+Speaker1,be from,the countryside,positive
+
+
+daily_dialogs-train-001980
+Yes , we have both the paperback and hardcover .
+speaker1,have,the paperback,positive
+speaker1,have,hardcover,positive
+
+
+personachat-valid-000313
+shopping is okay . what is your favorite thing to shop for ?
+shopping,be,okay,positive
+
+
+personachat-train-012923
+no . i am a person . do not be rude . i will feed you to the lions .
+Speaker1,be,a person,positive
+Speaker1,give,speaker2 to the lions,positive
+
+
+circa-valid-026241
+hi there , i decided to pack up my belongings and move here from germany .
+speaker1,decide,pack up speaker1's belongings,positive
+
+
+circa-valid-026241
+it's been problem free .
+it,be,problem free,positive
+
+
+circa-train-002074
+yup i been to new york city 3 times this year
+speaker1,go,new york city,positive
+
+
+circa-train-002074
+the city is too busy and loud
+the city,be,too busy,positive
+the city,be,too loud,positive
+
+
+circa-train-031062
+we both like the outdoors then ! i like working out at the park too .
+speaker1,like,the outdoors,positive
+speaker1,like,working out at the park,positive
+
+
+personachat-train-005053
+i'm an electronics technician .
+speaker1,be,an electronics technician,positive
+
+
+circa-train-007380
+i like iced coffee with flavors in it .
+Speaker1,like,iced coffee with flavors in it,positive
+
+
+circa-train-007380
+at the moment , i'm mad for soy sauce .
+speaker1,love,soy sauce,positive
+
+
+personachat-train-010358
+that seems fun , i walk 5 days a week , 2 3 hours
+speaker1,walk,5 days a week,positive
+that,seem,fun,positive
+
+
+circa-valid-016015
+i do not have friends because they think i'm too smart
+speaker1,have,friends,negative
+they,think,i'm too smart,positive
+
+
+circa-valid-016015
+i see a couple of them
+speaker1,see,a couple of them,positive
+
+
+daily_dialogs-train-000994
+If you don't mind , I'd rather you didn't . I have a cold and feel chilly .
+speaker1,have,a cold,positive
+speaker1,feel,chilly,positive
+
+
+daily_dialogs-train-003171
+it's about 200 years old . It has a lot of history !
+it,be,about 200 years old,positive
+It,have,a lot of history,positive
+
+
+daily_dialogs-train-003171
+it's just off of the ring road .
+It, be on,the ring road,positive
+
+
+personachat-valid-000416
+i am doing okay . trying to figure out how to take a bath .
+speaker1,try,figure out how to take a bath,positive
+speaker1,do,okay,positive
+
+
+personachat-valid-000416
+i've a water allergy , small amounts are all i can do .
+speaker1,have,a water allergy,positive
+speaker1,do,small amounts,positive
+
+
+daily_dialogs-valid-010338
+I think you've got the flu .
+speaker1,have,the flu,positive
+
+
+daily_dialogs-valid-012422
+I am confused about the projected revenues .
+Speaker1,confuse,the projected revenues,positive
+
+
+daily_dialogs-train-003018
+This perfume just arrived yesterday , and it's the latest products of Chanel .
+this perfume,arrive,yesterday,positive
+it,be,the latest products of Chanel,positive
+
+
+daily_dialogs-valid-004352
+Hi , Dave . This is Zina .
+this,be,zina,positive
+
+
+daily_dialogs-valid-004352
+I got your email a couple of months back .
+speaker1,get,speaker1 's email,positive
